@@ -35,5 +35,31 @@
     flex-direction: column;
     min-height: 100vh;
     justify-content: flex-start;
+* {
+    border: 3px solid black
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+article {
+    width: 32%;
+}
+
+@media screen and (max-width: 1000px) {
+    article {
+        width: 49%;
+    }       
+
+}
+@media screen and (max-width: 500px) {
+    article {
+        width: 99%;
+    }       
     
+
   }
+}
