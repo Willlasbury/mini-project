@@ -1,21 +1,23 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 :root {
-    --bg-color: #DDC3B1;
+    --accent-bg-color: #DDC3B1;
     --txt-header:#717960;
     --txt-body: black;
-    --text-color: #purple; 
+    --bg-color: rgb(58, 58, 58); 
+    --body-text:white;
     --accent-color: #a5b288;
   }
   
   header {
-    background-color: var(--bg-color);
+    background-color: var(--accent-bg-color);
+    height: 15vh;
+    text-align: center;
     font-size: 25px;
-    display: flex;
-    flex-direction: column;
-    height: 150px;
-    align-items: center;
   }
   
   .header h1 {
@@ -27,7 +29,7 @@
  .header p {
     margin-bottom: 10px;
     justify-content: center;
-  }
+ }
   
   main {
     font-size: 16px;
@@ -35,14 +37,12 @@
     flex-direction: column;
     min-height: 100vh;
     justify-content: flex-start;
-* {
-    border: 3px solid black
-}
+  }
+
 
 main {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 article {
